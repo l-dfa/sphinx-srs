@@ -20,6 +20,15 @@ we can follow these instructions::
   cd docs
   sphinx-quickstart ...
 
+Or just cloning this repository::
+
+  mkdir project_dir                  # dir.root
+  cd project_dir
+  virtualenv venv                    # create python virtual environment
+  source venv/bin/activate           # activate python virtual environment;
+                                     #   in windows: venv\scripts\activate
+  pip install sphinx
+  git clone https://github.com/l-dfa/sphinx-srs .
 
 Prerequisites
 -----------------
@@ -52,7 +61,8 @@ License
 
 This project is licensed under the Simplified BSD License
 
-## Acknowledgments
+Acknowledgments
+----------------
 
 This template derives from
 `United States Department of Agricolture - System Requirements Specification (SRS) <https://www.unc.edu/~stotts/comp523/USDA-funcSpecs.pdf>`_.
