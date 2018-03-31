@@ -1,0 +1,9 @@
+__pycache__
+build
+venv
+.htpasswd
+*.DS_Store
+*.lnk
+*.mo
+*.pyc
+*.sqlite3
