@@ -33,8 +33,7 @@ Or just cloning this repository::
   # hack rst files with your contents, then
   make html
   # will give you your SRS site in ../build/index.html
-  
-thean 
+
 
 Prerequisites
 -----------------
