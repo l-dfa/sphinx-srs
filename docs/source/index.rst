@@ -41,7 +41,7 @@ How prepare the initial environment
 To create an empty initial project environment
 we can follow these instructions::
 
-  mkdir project_dir                       # dir.root
+  mkdir project_dir                  # dir.root
   cd project_dir
   virtualenv venv                    # create python virtual environment
   source venv/bin/activate           # activate python virtual environment;
