@@ -29,6 +29,12 @@ Or just cloning this repository::
                                      #   in windows: venv\scripts\activate
   pip install sphinx
   git clone https://github.com/l-dfa/sphinx-srs .
+  cd docs
+  # hack rst files with your contents, then
+  make html
+  # will give you your SRS site in ../build/index.html
+  
+thean 
 
 Prerequisites
 -----------------
