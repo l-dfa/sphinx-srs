@@ -19,6 +19,11 @@ we can follow these instructions::
   mkdir docs
   cd docs
   sphinx-quickstart ...
+  # make your edits
+  cd ..
+  # git add relevant files, then git commit
+  git remote add origin https://github.com/my_project.git
+  # git pull /push as needed
 
 Or just cloning this repository::
 
@@ -70,5 +75,5 @@ Acknowledgments
 ----------------
 
 This template derives from
-`United States Department of Agricolture - System Requirements Specification (SRS) <https://www.unc.edu/~stotts/comp523/USDA-funcSpecs.pdf>`_.
+`United States Department of Agricolture - System Requirements Specification (SRS) <https://luciano.defalcoalfano.it/media/pdfs/USDA-funcSpecs.pdf>`_.
 
